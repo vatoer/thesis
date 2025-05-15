@@ -1,0 +1,5 @@
+# abstract
+
+This research proposes an Artificial Intelligence (AI)-powered framework to enhance the public diplomacy of Indonesia's Ministry of Foreign Affairs (MoFA RI). MoFA RI faces challenges in effectively analyzing global public sentiment and narratives concerning Indonesia across multilingual digital platforms. The primary objective is to design, prototype, and evaluate an AI system using Natural Language Processing (NLP) for sentiment analysis and narrative detection, focusing on Bahasa Indonesia and English.
+
+The methodology involves understanding MoFA RI's needs, adapting State-of-the-Art (SOTA) NLP for low-resource Bahasa Indonesia in the diplomatic domain, curating a specialized dataset, developing AI modules, and conceptualizing a user-centric dashboard. Expected contributions include a practical tool for MoFA RI, enabling proactive and targeted public diplomacy, advancements in NLP for Bahasa Indonesia, a model for developing nations, and a robust ethical framework. The research emphasizes human-AI collaboration, addressing low-resource language challenges and ensuring responsible AI governance in diplomacy.
