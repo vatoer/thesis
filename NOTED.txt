@@ -1,0 +1,52 @@
+THESIS PROPOSAL
+Title
+
+Abstract:
+background of research
+the objective of research
+methods
+expected result
+
+1. Introduction
+detail of background of research
+state of the art (theory)  7 / 10 citation
+gap analysis
+Problem formulation
+Objective of research
+Limitation
+Hypothesis (Optional)
+
+2. Detail Theory / Literature
+Fifteen until 20
+
+3. Method
+Research Design
+Data Collection
+Data Pre Processing
+Data Processing
+Data Analysis
+Data Visualisation
+Data Validity
+
+THESIS REPORT
+4. RESULT and DISCUSSION
+FIVE.CONCLUSION
+REFERENCE
+
+
+WEEK 10 : Collect Title and abstract at e Campus AND the lecturer give feed back at the meeting class
+
+WEEK 11 : Introduction : background and state of the art and gap analysis, Problem formulation and objective and limitation
+
+WEEK 12 : Detail of theory
+
+WEEK 13 : Method : Research Design, Data Collection, Data Pre Processing
+
+WEEK 14 : Method : Data Processing, Data Analysis, Data Visualisation, Data Validity
+
+WEEK FIVETEEN : Complete proposal until reference
+
+WEEK SIXTEEN : SUBMIT TO ECAMPUS
+
+
+
