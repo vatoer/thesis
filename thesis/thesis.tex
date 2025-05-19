@@ -1,0 +1,198 @@
+\documentclass[a4paper,12pt]{report}
+
+% Language and encoding
+\usepackage[english]{babel}
+
+% Font packages
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+
+% Math font setup
+\usepackage{unicode-math}
+\setmathfont{XITS Math}       % Or use another font like 'Latin Modern Math'
+
+
+% Page margins
+\usepackage[a4paper, left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
+
+% Line spacing
+\usepackage{setspace}
+\doublespacing  % Use \onehalfspacing for 1.5 line spacing
+
+% For figures and tables
+\usepackage{graphicx}
+\usepackage{caption}
+
+% For references
+\usepackage{url} % For clickable URLs in the bibliography
+% \usepackage{cite}
+\usepackage{csquotes}         % Add csquotes for proper quotation support
+\usepackage[backend=biber, style=ieee]{biblatex}
+\addbibresource{references.bib}
+
+
+% Title Page
+\title{Fine-Tuning BERT for Indonesian Consular Services: A Case Study on Automated Question Answering for Citizens Abroad}
+\author{Fathur Rohman}
+\date{2025}
+
+\begin{document}
+% Add \sloppy here
+\sloppy
+% \hyphenpenalty=1000  % Make LaTeX less likely to hyphenate
+% \tolerance=5000      % Increase tolerance for line-breaking issues
+% Title Page
+% Title Page
+\begin{titlepage}
+    \begin{center}
+        \vspace*{2cm} % Adjust vertical spacing as needed
+
+        {\LARGE \textbf{Fine-Tuning BERT for Automated Consular Question Answering: A Case Study for Indonesian Citizens Abroad}} \\[1.5cm]
+
+        \textbf{Fathur Rohman} \\[1.5cm]
+
+        \vspace{5cm} % Additional space to move the university name down
+        \textbf{President University} \\[0.5em]
+        Informatics Study Program \\[0.5em]
+        Master of Science in Information Technology \\[1.5cm]
+
+        \textbf{2025}
+    \end{center}
+\end{titlepage}
+
+
+% Abstract Page
+% Abstract Page
+\begin{center}
+  \textbf{Abstract}
+\end{center}
+\begin{spacing}{1.5} % Use 1.5 line spacing for the abstract
+
+The increasing number of Indonesian citizens living, working, or traveling abroad has highlighted the need for efficient, real-time consular services. Traditional consular support systems often face long response times, accessibility issues, and limited availability, leading to service bottlenecks. This research proposes an AI-powered chatbot leveraging a fine-tuned BERT (Bidirectional Encoder Representations from Transformers) model to enhance automated question answering for consular inquiries.
+
+This research focuses on fine-tuning BERT for automated consular question answering, specifically tailored to the needs of Indonesian citizens abroad. The core of this study is the application of IndoBERT, a pre-trained Indonesian language model based on Bidirectional Encoder Representations from Transformers (BERT), which is fine-tuned on a domain-specific dataset of consular-related context-question-answer triplets. These queries focus on critical consular services, including legal assistance, immigration procedures, and emergency support. By creating this specialized dataset, the research aims to enhance the chatbot's ability to provide accurate, context-aware, and legally precise responses.
+
+The expected outcomes include an optimized QA model for consular services, a domain-specific dataset tailored to Indonesian consular needs, and an AI-powered chatbot that improves the accessibility and efficiency of consular assistance. This work distinguishes itself from existing initiatives, such as SARI, by addressing the complex, legal, and procedural nature of consular queries rather than providing general support. Aligned with Indonesia’s national AI strategy (STRANAS KA 2020–2045) and RPJMN 2025–2029, this research demonstrates the practical application of fine-tuned NLP models in public service automation, ensuring compliance with data privacy and security standards.
+
+\textbf{Keywords:} Natural Language Processing, BERT Fine-Tuning, Indonesian Consular Services, Question Answering System, AI Chatbot, IndoBERT, Public Service Automation.
+\end{spacing}
+
+\newpage
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% List of Figures (if applicable)
+\listoffigures
+\newpage
+
+% List of Tables (if applicable)
+\listoftables
+\newpage
+
+% Chapter 1: Introduction
+\chapter{Introduction}
+The rapid globalization and increasing mobility of Indonesian citizens—whether for work, study, tourism, or migration—have significantly amplified the demand for efficient and accessible consular services ~\cite{bps2024migration,oecd2022emigrants,wikipedia2025overseas}. Citizens abroad often rely on embassies and consulates to address urgent matters such as legal assistance, immigration procedures, and emergency support. However, traditional consular service systems are frequently hampered by limited availability, lengthy response times, and resource constraints, particularly during high-demand periods or crisis situations. These challenges underline the need for innovative solutions that can improve responsiveness, accessibility, and service quality.
+
+Advancements in Artificial Intelligence (AI) and Natural Language Processing (NLP) present promising avenues to enhance public service delivery. AI-powered chatbots have emerged as practical tools for automating information retrieval and addressing frequently asked questions ~\cite{reuters2025,axios2024}. Yet, many existing chatbots used in government services are still rule-based, resulting in limited capability when dealing with complex or context-sensitive queries. This shortcoming is especially critical in the consular domain, where questions often involve nuanced legal or procedural matters that require accurate, context-aware responses.
+
+To address these challenges, this research proposes the development of an AI-powered chatbot specifically tailored for Indonesian consular services. At the core of this system is IndoBERT—a pre-trained Indonesian language model based on Bidirectional Encoder Representations from Transformers (BERT) ~\cite{koto-etal-2020-indolem}. IndoBERT has demonstrated strong performance in a variety of NLP benchmarks, including sentiment analysis, question answering, and paraphrase identification ~\cite{koto-etal-2021-indobertweet,kartika2023paraphrase}. By fine-tuning IndoBERT on a domain-specific dataset composed of context-question-answer triplets, this study aims to significantly enhance the chatbot’s ability to understand and respond accurately to real-world consular inquiries in Bahasa Indonesia.
+
+The novelty of this research lies in the fine-tuning of IndoBERT on a domain-specific dataset consisting of context-question-answer triplets directly relevant to consular services. These queries cover critical areas such as legal documentation, immigration processes, and emergency situations. By fine-tuning IndoBERT on this specialized dataset, the model's ability to provide accurate, context-aware, and legally informed responses to consular inquiries in Bahasa Indonesia is significantly improved. This process not only enhances the performance of the model but also provides a valuable resource—this domain-specific dataset—for future advancements in consular automation
+
+Unlike existing AI initiatives like SARI, which primarily focuses on general support for migrant workers, this research focuses on the complex and specific needs of Indonesian citizens seeking legal, immigration, and emergency-related information from consular services. By fine-tuning the model for these nuanced areas, this research aims to advance the state of AI-driven consular services and offer a more specialized and effective solution.
+
+The key contributions of this study include:
+\begin{enumerate}
+    \item The fine-tuning of IndoBERT for consular question answering, specifically addressing legal and procedural queries.
+    \item The creation of a domain-specific dataset tailored to consular services.
+    \item The development of an AI-powered chatbot that improves the accessibility and responsiveness of consular services, particularly in high-demand or crisis situations.
+\end{enumerate}
+
+\tolerance=2000  
+\emergencystretch=2em
+\begin{sloppypar}
+  This research aligns with Indonesia’s National AI Strategy (STRANAS KA 2020–2045) and the National Medium-Term Development Plan (RPJMN 2025–2029), which emphasize the integration of AI into public services for inclusive digital transformation (The HEAD Foundation, 2024). Through this project, we aim to demonstrate the practical application of advanced NLP models in public service automation, emphasizing user accessibility, data privacy, and national digital resilience.
+\end{sloppypar}
+
+The remainder of this proposal outlines the problem formulation, research objectives, methodology, expected outcomes, and contributions. Through this study, we aim to demonstrate the practical application of fine-tuned NLP models in public service automation, with a strong focus on data privacy, security, and user accessibility.
+
+
+% % Subsection Example
+% \section{Problem Statement}
+% Describe the specific problem that your research addresses.
+
+\newpage
+
+% Chapter 2: Literature Review
+\chapter{Literature Review}
+\section{Introduction}
+This chapter presents a comprehensive review of the current state of consular services, the adoption of artificial intelligence (AI) and chatbots in public service, advances in Natural Language Processing (NLP), and the development and application of IndoBERT for Indonesian-language tasks. These works form the foundation upon which this study proposes an AI-powered consular chatbot using a fine-tuned IndoBERT model.
+
+\section{Consular Services and Digital Transformation}
+Consular services are crucial for supporting citizens abroad with legal aid, immigration issues, and emergency assistance. Traditional models, however, often suffer from inefficiency, resource limitations, and accessibility challenges. As a response, many governments are turning to digital solutions to improve responsiveness and service reach.
+
+In Indonesia, the Ministry of Foreign Affairs, in collaboration with UN Women, has introduced a chatbot named SARI (Sahabat Artifisial Migran Indonesia), designed to provide support to Indonesian migrant workers abroad. SARI is integrated with the Safe Travel app and provides multilingual, empathetic assistance ~\cite{unwomen2024}. This initiative demonstrates growing interest in AI-powered assistance in the public sector.
+
+\section{AI and Chatbots in Public Service}
+Chatbots are increasingly used to improve the delivery of public services by automating routine tasks and facilitating 24/7 communication with citizens. They have been deployed for use cases ranging from healthcare triage to tax advice. Rule-based chatbots are often limited in handling dynamic, context-heavy queries, while AI-powered models—especially those based on NLP—offer more flexibility and natural interaction \cite{amiri2022}.
+
+In the context of consular affairs, chatbots offer the potential to respond to inquiries on topics such as document requirements, appointment scheduling, or legal rights of migrants. However, there is also growing awareness of the ethical considerations, including the need for human fallback mechanisms in sensitive or emotional situations ~\cite{atallah2023}.
+
+\section{Natural Language Processing (NLP) and BERT}
+Natural Language Processing enables machines to interpret and generate human language. It underpins technologies such as machine translation, sentiment analysis, and chatbots. One of the key breakthroughs in NLP has been the development of BERT (Bidirectional Encoder Representations from Transformers) ~\cite{devlin2019bert}. BERT's architecture uses self-attention mechanisms to understand language context bidirectionally, which greatly enhances its performance in question answering and language inference tasks.
+
+\section{IndoBERT and the Indonesian NLP Landscape}
+Despite Bahasa Indonesia being spoken by millions, it has been underrepresented in mainstream NLP models. To address this, Koto et al. introduced IndoBERT, a version of BERT trained specifically on Indonesian texts from Wikipedia, news corpora, and web sources \cite{koto2020}. IndoBERT demonstrated strong performance on the IndoNLU benchmark—a suite of 12 NLP tasks including sentiment analysis, paraphrase detection, and question answering.
+
+The IndoNLU benchmark, developed by Wilie et al. ~\cite{wilie2020}, provides standardized tasks and datasets to evaluate Indonesian-language models. This has facilitated the comparison and development of transformer-based architectures tailored for Bahasa Indonesia.
+
+\section{Fine-Tuning IndoBERT for Specific Applications}
+IndoBERT can be fine-tuned for domain-specific NLP tasks. For instance, fine-tuned IndoBERT for classifying Indonesian exam questions based on Bloom’s taxonomy, achieving an accuracy of over 88\% ~\cite{naufal2023}. Another fine-tuned version, "indobert-qa-finetuned-small-squad-indonesian-rizal," is trained on a translated version of the SQuAD v2.0 dataset for question answering in Indonesian ~\cite{rizal2023}. These projects validate the use of IndoBERT in real-world applications involving domain-specific text.
+
+\section{Summary}
+The literature clearly shows that AI-driven chatbots, when supported by robust NLP models like IndoBERT, offer significant advantages in automating public service tasks. Government-backed initiatives such as SARI demonstrate Indonesia’s readiness to embrace AI in consular support. However, existing models are still limited in addressing complex, contextual, or legal queries in Bahasa Indonesia. This research fills that gap by developing a fine-tuned IndoBERT model for consular service QA, aligned with the goals of STRANAS KA 2020–2045 and RPJMN 2025–2029.
+
+
+\newpage
+
+% Chapter 3: Methodology
+\chapter{Methodology}
+Explain the methods you used in your research, including experimental setups, data collection, and analysis techniques.
+
+% Subsection Example
+\section{Data Collection}
+Detail how you collected data for your study.
+
+\newpage
+
+% Chapter 4: Results and Discussion
+\chapter{Results and Discussion}
+Present the results of your research, along with discussions on the implications and findings.
+
+\newpage
+
+% Chapter 5: Conclusion
+\chapter{Conclusion}
+Summarize the key findings of your research and suggest future work or improvements.
+
+\newpage
+% References
+% \bibliographystyle{IEEEtran}
+% \bibliography{references} % Make sure references.bib is in the same folder
+\printbibliography
+
+
+\newpage
+
+% Appendices
+\appendix
+\chapter{Additional Information}
+Include any additional data, charts, or detailed explanations that are important for understanding your research.
+
+\end{document}
+
+\end{document}

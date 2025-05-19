@@ -1,0 +1,595 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{NIPS2017_3f5ee243}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Łukasz},
+           giveni={Ł\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \name{editor}{7}{}{%
+        {{hash=e7e74de725116358b68a6e890c026145}{%
+           family={Guyon},
+           familyi={G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3b118a9660c18913c6d05d3bcfae41a3}{%
+           family={Luxburg},
+           familyi={L\bibinitperiod},
+           given={U.\bibnamedelimi Von},
+           giveni={U\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9b411b6c9cefdde16ffea77ecf612142}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1444141e07dd9549dbb4b8530fe4ec15}{%
+           family={Wallach},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f3857e15544199442f3d4fb2cf6645b4}{%
+           family={Fergus},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c73f06e2fc98c9b0bf52eb5fdce61943}{%
+           family={Vishwanathan},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=36b98b7ab533936cf1b5716148de704f}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{fullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorfullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \strng{editorbibnamehash}{7cffda9a379be8eb9063eee4eb0f58b3}
+      \strng{editornamehash}{7cffda9a379be8eb9063eee4eb0f58b3}
+      \strng{editorfullhash}{1564f811a39f09a7400a11284c987926}
+      \strng{editorfullhashraw}{1564f811a39f09a7400a11284c987926}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Attention is All you Need}
+      \field{volume}{30}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+      \endverb
+    \endentry
+    \entry{jm3}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=bd33d7a70284b5ead9c7985cb5c9929c}{%
+           family={Jurafsky},
+           familyi={J\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9ed8bee488b2703da341cded66bf83cb}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{fullhash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{fullhashraw}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{bibnamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authorbibnamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authornamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authorfullhash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authorfullhashraw}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{note}{Online manuscript released January 12, 2025}
+      \field{title}{Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://web.stanford.edu/~jurafsky/slp3/
+      \endverb
+      \verb{url}
+      \verb https://web.stanford.edu/~jurafsky/slp3/
+      \endverb
+    \endentry
+    \entry{NEURIPS2020_6b493230}{inproceedings}{}{}
+      \name{author}{12}{}{%
+        {{hash=ecbe786a5668bf643d74bb24fe1c3cfe}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=79978685fd7b37606022b06c0f6419a1}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={Ethan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d205faec67355b6e0ec49f82a492324c}{%
+           family={Piktus},
+           familyi={P\bibinitperiod},
+           given={Aleksandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1c32989a78998fe3c03c981d0da2dc7}{%
+           family={Petroni},
+           familyi={P\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b24392ebfb2c0a35979fc689c389c649}{%
+           family={Karpukhin},
+           familyi={K\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+        {{hash=78a420900f50a8470ad085fb05231bf6}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Naman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4eadcf26f55e11fe4be834b52d9b7fdf}{%
+           family={Küttler},
+           familyi={K\bibinitperiod},
+           given={Heinrich},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c97f53fdeeb04c28de19e3324cb4bc0a}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d4d56d3d370b3afd4ad2ebf985fbd3f8}{%
+           family={Yih},
+           familyi={Y\bibinitperiod},
+           given={Wen-tau},
+           giveni={W\bibinithyphendelim t\bibinitperiod}}}%
+        {{hash=b3ff4029884ead9928954ea33714192c}{%
+           family={Rocktäschel},
+           familyi={R\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6cd024b217f3f2f8126e253b8c84d24d}{%
+           family={Riedel},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ca01c762f4a52dd8a8548508f8d727c9}{%
+           family={Kiela},
+           familyi={K\bibinitperiod},
+           given={Douwe},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=6c15b92d4ebdbfae091f6548dc7543ae}{%
+           family={Larochelle},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6cb5af0e649387de5bbfdb150cc7a786}{%
+           family={Ranzato},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae95119be0d9d86ffdec9f3142af353e}{%
+           family={Hadsell},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=20f36d8aae4f5467e0c03ccdaee4076a}{%
+           family={Balcan},
+           familyi={B\bibinitperiod},
+           given={M.F.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=006d527428ae3b86c2093d6d28e16072}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{fullhash}{22489b764620b23a8cc8547a492f0763}
+      \strng{fullhashraw}{22489b764620b23a8cc8547a492f0763}
+      \strng{bibnamehash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{authorbibnamehash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{authornamehash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{authorfullhash}{22489b764620b23a8cc8547a492f0763}
+      \strng{authorfullhashraw}{22489b764620b23a8cc8547a492f0763}
+      \strng{editorbibnamehash}{01684a8bcecde64514068030e781dc4f}
+      \strng{editornamehash}{1bb757b97fffae621331dd700b5a7ca9}
+      \strng{editorfullhash}{01684a8bcecde64514068030e781dc4f}
+      \strng{editorfullhashraw}{01684a8bcecde64514068030e781dc4f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{pages}{9459\bibrangedash 9474}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf
+      \endverb
+    \endentry
+    \entry{govnet2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3783ab84a0a397862647fef62109d4d5}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Piers},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3783ab84a0a397862647fef62109d4d5}
+      \strng{fullhash}{3783ab84a0a397862647fef62109d4d5}
+      \strng{fullhashraw}{3783ab84a0a397862647fef62109d4d5}
+      \strng{bibnamehash}{3783ab84a0a397862647fef62109d4d5}
+      \strng{authorbibnamehash}{3783ab84a0a397862647fef62109d4d5}
+      \strng{authornamehash}{3783ab84a0a397862647fef62109d4d5}
+      \strng{authorfullhash}{3783ab84a0a397862647fef62109d4d5}
+      \strng{authorfullhashraw}{3783ab84a0a397862647fef62109d4d5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: May 17, 2025}
+      \field{title}{How Governments are Using AI: 8 Real-World Case Studies}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://blog.govnet.co.uk/technology/ai-in-government-case-studies
+      \endverb
+      \verb{url}
+      \verb https://blog.govnet.co.uk/technology/ai-in-government-case-studies
+      \endverb
+    \endentry
+    \entry{govsgvica2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=dea916e2bbe03a9ce84e9788050edb32}{%
+           family={{Government Technology Agency of Singapore (GovTech)}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{dea916e2bbe03a9ce84e9788050edb32}
+      \strng{fullhash}{dea916e2bbe03a9ce84e9788050edb32}
+      \strng{fullhashraw}{dea916e2bbe03a9ce84e9788050edb32}
+      \strng{bibnamehash}{dea916e2bbe03a9ce84e9788050edb32}
+      \strng{authorbibnamehash}{dea916e2bbe03a9ce84e9788050edb32}
+      \strng{authornamehash}{dea916e2bbe03a9ce84e9788050edb32}
+      \strng{authorfullhash}{dea916e2bbe03a9ce84e9788050edb32}
+      \strng{authorfullhashraw}{dea916e2bbe03a9ce84e9788050edb32}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Last updated: May 14, 2025. Accessed: May 17, 2025}
+      \field{title}{Activate Public-Facing Chatbots and Serve Citizens Better with VICA}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.tech.gov.sg/products-and-services/for-government-agencies/productivity-and-marketing/vica/
+      \endverb
+      \verb{url}
+      \verb https://www.tech.gov.sg/products-and-services/for-government-agencies/productivity-and-marketing/vica/
+      \endverb
+    \endentry
+    \entry{usdosai2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=461a2046ed4ea75372dc1311b456c6a9}{%
+           family={{U.S. Department of State}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{461a2046ed4ea75372dc1311b456c6a9}
+      \strng{fullhash}{461a2046ed4ea75372dc1311b456c6a9}
+      \strng{fullhashraw}{461a2046ed4ea75372dc1311b456c6a9}
+      \strng{bibnamehash}{461a2046ed4ea75372dc1311b456c6a9}
+      \strng{authorbibnamehash}{461a2046ed4ea75372dc1311b456c6a9}
+      \strng{authornamehash}{461a2046ed4ea75372dc1311b456c6a9}
+      \strng{authorfullhash}{461a2046ed4ea75372dc1311b456c6a9}
+      \strng{authorfullhashraw}{461a2046ed4ea75372dc1311b456c6a9}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: May 17, 2025}
+      \field{title}{Department of State AI Inventory 2024}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://2021-2025.state.gov/department-of-state-ai-inventory-2024/
+      \endverb
+      \verb{url}
+      \verb https://2021-2025.state.gov/department-of-state-ai-inventory-2024/
+      \endverb
+    \endentry
+    \entry{molaee2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d727cb9fbeb859aaf0d636fa0b5c4ad9}{%
+           family={Molaee},
+           familyi={M\bibinitperiod},
+           given={Azam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{3}{%
+        {University of Tehran on behalf of the "Cyberspace Research Policy Center"}%
+        {the "UNESCO Chair on Cyberspace}%
+        {Culture: Dual Spacization of the World"}%
+      }
+      \strng{namehash}{d727cb9fbeb859aaf0d636fa0b5c4ad9}
+      \strng{fullhash}{d727cb9fbeb859aaf0d636fa0b5c4ad9}
+      \strng{fullhashraw}{d727cb9fbeb859aaf0d636fa0b5c4ad9}
+      \strng{bibnamehash}{d727cb9fbeb859aaf0d636fa0b5c4ad9}
+      \strng{authorbibnamehash}{d727cb9fbeb859aaf0d636fa0b5c4ad9}
+      \strng{authornamehash}{d727cb9fbeb859aaf0d636fa0b5c4ad9}
+      \strng{authorfullhash}{d727cb9fbeb859aaf0d636fa0b5c4ad9}
+      \strng{authorfullhashraw}{d727cb9fbeb859aaf0d636fa0b5c4ad9}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: The world is rapidly becoming more intelligent, and AI is penetrating many fields, including international affairs. Based on this, we will soon witness the emergence of a new generation of embassies, namely AI embassies.Aims: This article answers the main question: "What are the prerequisites and requirements for using AI in embassies?"Methodology: This research, conducted using a qualitative approach and socio-technical theory, examines changes around embassies and operational experiences in this area and concludes that ambassadors need to align with modern developments to succeed in their diplomatic missions.Findings: The research findings indicate that a comprehensive and accurate understanding of the developments in the host country and benefiting from AI suggestions for developing relations with the government and people of the host country are among the advantages of AI embassies. Security issues and the need for skilled human resources are some of the challenges of AI embassies. Finally, the main achievement of this article is to provide an operational framework for the responsible use of AI in embassies.Conclusion: Designing and implementing an artificial intelligence strategy, ensuring data quality and security, empowering embassy staff, and continuous monitoring and evaluation are the most critical components of this proposed framework.}
+      \field{issn}{2588-5499}
+      \field{journaltitle}{Journal of Cyberspace Studies}
+      \field{number}{1}
+      \field{title}{AI Embassies: A New Frontier in Cyber Domain}
+      \field{volume}{9}
+      \field{year}{2025}
+      \field{pages}{203\bibrangedash 227}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.22059/jcss.2025.383498.1108
+      \endverb
+      \verb{eprint}
+      \verb https://jcss.ut.ac.ir/article_100581_a63c21762f4b96d4392cdac251b8c001.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://jcss.ut.ac.ir/article_100581.html
+      \endverb
+      \verb{url}
+      \verb https://jcss.ut.ac.ir/article_100581.html
+      \endverb
+      \keyw{AI,embassy,consular services,Cyber Security,diplomacy,virtual embassy}
+    \endentry
+    \entry{mostafaei2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=48f3dfdc907c0636c1c54403959703eb}{%
+           family={Mostafaei},
+           familyi={M\bibinitperiod},
+           given={Hamidreza},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fd55f19e2e6b60c7c02ed48b9f3e1573}{%
+           family={Kordnoori},
+           familyi={K\bibinitperiod},
+           given={Shirin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=60000055eb9797bf533ab4bc3eddb399}{%
+           family={Ostadrahimi},
+           familyi={O\bibinitperiod},
+           given={Mohammadmohsen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=811d34512cf5f04f732accf6a0a33586}{%
+           family={banihashemi},
+           familyi={b\bibinitperiod},
+           given={Saeed},
+           giveni={S\bibinitperiod},
+           prefix={seyed\bibnamedelima agha},
+           prefixi={s\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+        {{hash=a8516a56253103a2eeb9c6db4a518320}{%
+           family={Debo},
+           familyi={D\bibinitperiod},
+           given={Daba},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{21f1c4ea154a91129927b59d3008d57f}
+      \strng{fullhash}{dd1dec5475b8ff49ec6b027f1fb40949}
+      \strng{fullhashraw}{dd1dec5475b8ff49ec6b027f1fb40949}
+      \strng{bibnamehash}{dd1dec5475b8ff49ec6b027f1fb40949}
+      \strng{authorbibnamehash}{dd1dec5475b8ff49ec6b027f1fb40949}
+      \strng{authornamehash}{21f1c4ea154a91129927b59d3008d57f}
+      \strng{authorfullhash}{dd1dec5475b8ff49ec6b027f1fb40949}
+      \strng{authorfullhashraw}{dd1dec5475b8ff49ec6b027f1fb40949}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainable Futures}
+      \field{month}{02}
+      \field{title}{Applications of Artificial Intelligence in Global Diplomacy: A Review of Research and Practical Models}
+      \field{volume}{9}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.sftr.2025.100486
+      \endverb
+    \endentry
+    \entry{karzhevdatacamp2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=01427a591eacd0ad3c5a8d3adbad9959}{%
+           family={Karzhev},
+           familyi={K\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {DataCamp}%
+      }
+      \strng{namehash}{01427a591eacd0ad3c5a8d3adbad9959}
+      \strng{fullhash}{01427a591eacd0ad3c5a8d3adbad9959}
+      \strng{fullhashraw}{01427a591eacd0ad3c5a8d3adbad9959}
+      \strng{bibnamehash}{01427a591eacd0ad3c5a8d3adbad9959}
+      \strng{authorbibnamehash}{01427a591eacd0ad3c5a8d3adbad9959}
+      \strng{authornamehash}{01427a591eacd0ad3c5a8d3adbad9959}
+      \strng{authorfullhash}{01427a591eacd0ad3c5a8d3adbad9959}
+      \strng{authorfullhashraw}{01427a591eacd0ad3c5a8d3adbad9959}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: May 17, 2025}
+      \field{title}{Advanced RAG Techniques}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.datacamp.com/blog/rag-advanced
+      \endverb
+      \verb{url}
+      \verb https://www.datacamp.com/blog/rag-advanced
+      \endverb
+    \endentry
+    \entry{gemma_qlora_2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=92918cfdbd5f689c95b602a9f361afd1}{%
+           family={{Google AI}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{92918cfdbd5f689c95b602a9f361afd1}
+      \strng{fullhash}{92918cfdbd5f689c95b602a9f361afd1}
+      \strng{fullhashraw}{92918cfdbd5f689c95b602a9f361afd1}
+      \strng{bibnamehash}{92918cfdbd5f689c95b602a9f361afd1}
+      \strng{authorbibnamehash}{92918cfdbd5f689c95b602a9f361afd1}
+      \strng{authornamehash}{92918cfdbd5f689c95b602a9f361afd1}
+      \strng{authorfullhash}{92918cfdbd5f689c95b602a9f361afd1}
+      \strng{authorfullhashraw}{92918cfdbd5f689c95b602a9f361afd1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: May 17, 2025}
+      \field{title}{Fine-Tune Gemma using Hugging Face Transformers and QLoRA}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://ai.google.dev/gemma/docs/core/huggingface_text_finetune_qlora
+      \endverb
+      \verb{url}
+      \verb https://ai.google.dev/gemma/docs/core/huggingface_text_finetune_qlora
+      \endverb
+    \endentry
+    \entry{ratnakar2025qapairsassessingparameterefficient}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=c55319151bfff7f12fa92e751f4837ae}{%
+           family={Ratnakar},
+           familyi={R\bibinitperiod},
+           given={Shivam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=845f4ba8bb483bc4c63ab4d7c8f44fd4}{%
+           family={Talasila},
+           familyi={T\bibinitperiod},
+           given={Abhiroop},
+           giveni={A\bibinitperiod}}}%
+        {{hash=154a6329ad06adf9510c3ec2442da71a}{%
+           family={Chamadiya},
+           familyi={C\bibinitperiod},
+           given={Raghav},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0c1b70042035aa8c992a0e1e430ec372}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Nikhil},
+           giveni={N\bibinitperiod}}}%
+        {{hash=710318185beaee5958d30224579a5d15}{%
+           family={Doifode},
+           familyi={D\bibinitperiod},
+           given={Vinayak\bibnamedelima K},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3f45415716d4d3224a57d187261a260}
+      \strng{fullhash}{3b0fcbc9023bf2b0f83bff4e82d4497e}
+      \strng{fullhashraw}{3b0fcbc9023bf2b0f83bff4e82d4497e}
+      \strng{bibnamehash}{3b0fcbc9023bf2b0f83bff4e82d4497e}
+      \strng{authorbibnamehash}{3b0fcbc9023bf2b0f83bff4e82d4497e}
+      \strng{authornamehash}{a3f45415716d4d3224a57d187261a260}
+      \strng{authorfullhash}{3b0fcbc9023bf2b0f83bff4e82d4497e}
+      \strng{authorfullhashraw}{3b0fcbc9023bf2b0f83bff4e82d4497e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Beyond QA Pairs: Assessing Parameter-Efficient Fine-Tuning for Fact Embedding in LLMs}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2503.01131
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2503.01131
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2503.01131
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -48,7 +48,7 @@ for Brainstorming I consider title like , "A Retrieval-Augmented Generation Appr
 
 write report as detailed as possible!
 
-here is ouline for the proposal 
+here is ouline for the proposal
 
 THESIS PROPOSAL
 Title
